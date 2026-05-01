@@ -1,0 +1,16 @@
+import "./Hero.css";
+
+function Hero() {
+  return (
+    <section className="hero">
+      <h1>
+        Premium Sanitary Solutions <br />
+        <span>for Modern Homes</span>
+      </h1>
+      <p>Discover the finest collection of bathroom fittings.</p>
+      <button>Explore Products →</button>
+    </section>
+  );
+}
+
+export default Hero;
